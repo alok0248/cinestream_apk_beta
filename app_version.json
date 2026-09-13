@@ -1,11 +1,11 @@
 {
-  "latest_version": "v3.4.8.414",
-  "latest_build": 414,
+  "latest_version": "v3.4.8.415",
+  "latest_build": 415,
   "min_supported_build": 385,
   "build_type": "BETA",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
-    "CineStream BETA release v3.4.8.414",
+    "CineStream BETA release v3.4.8.415",
     "Built with consistent production signing key",
     "R8 minification and resource shrinking enabled",
     "Auto-generated via deploy workflow"
