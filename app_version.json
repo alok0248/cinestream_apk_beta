@@ -1,20 +1,21 @@
 {
-  "latest_version": "v3.4.8.637",
-  "latest_build": 637,
+  "latest_version": "v3.4.8.638",
+  "latest_build": 638,
   "min_supported_build": 385,
   "build_type": "BETA",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
-    "CineStream BETA release v3.4.8.637",
-    "Every link, header and audio track is keyed to one title and one season/episode through a single key builder",
-    "Player quality list no longer mixes in other episodes of the series or titles with similar ids",
-    "Each details page, movie, series and episode now keeps its own links and plays only its own stream",
-    "Removed fallbacks that could play another title's or another episode's link",
+    "CineStream BETA release v3.4.8.638",
+    "TV remote: arrow keys seek while the timeline is hidden, and navigate the player buttons once it is visible",
+    "Remote focus always stays on the screen that is showing (player, then the page it returns to)",
+    "Back now shrinks the video into a floating mini player so the rest of the app keeps browsing with it playing; mini player gains play/pause, expand and close",
+    "Smaller fonts across both players, their menus and overlays",
+    "Link list shows the player each link was extracted from on its own small line under the link",
+    "New 'Search More Players for More Links' row at the end of the link list - probes the next player and appends higher-resolution links to the ones already fetched",
+    "Each link plays with the settings of the player it came from; stale settings from another player are dropped",
+    "Visible TV focus highlight on playlists, continue watching, downloads rows and the theme picker",
     "HQ player menu labels every link with the player it was extracted from (Player 1 (Videasy), CineStream, Player 3 (AutoEmbed) ...)",
-    "Player menu lists resolutions and links together in compact type",
     "Fetch More Links checks the next player only and waits for the next tap",
-    "Each link loads the player configuration that matches its own source",
-    "More Like This badge renamed to CineStream",
     "Provider filter applies to Movies and TV shows; Home resets to All providers"
   ]
 }
