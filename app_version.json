@@ -1,11 +1,13 @@
 {
-  "latest_version": "v3.4.8.636",
-  "latest_build": 636,
+  "latest_version": "v3.4.8.637",
+  "latest_build": 637,
   "min_supported_build": 385,
   "build_type": "BETA",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
-    "CineStream BETA release v3.4.8.636",
+    "CineStream BETA release v3.4.8.637",
+    "Every link, header and audio track is keyed to one title and one season/episode through a single key builder",
+    "Player quality list no longer mixes in other episodes of the series or titles with similar ids",
     "Each details page, movie, series and episode now keeps its own links and plays only its own stream",
     "Removed fallbacks that could play another title's or another episode's link",
     "HQ player menu labels every link with the player it was extracted from (Player 1 (Videasy), CineStream, Player 3 (AutoEmbed) ...)",
