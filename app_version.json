@@ -6,7 +6,9 @@
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
     "CineStream BETA release v3.4.8.636",
-    "HQ player menu now labels every link with the player it was extracted from (Player 1 (Videasy), CineStream, Player 3 (AutoEmbed) ...)",
+    "Each details page, movie, series and episode now keeps its own links and plays only its own stream",
+    "Removed fallbacks that could play another title's or another episode's link",
+    "HQ player menu labels every link with the player it was extracted from (Player 1 (Videasy), CineStream, Player 3 (AutoEmbed) ...)",
     "Player menu lists resolutions and links together in compact type",
     "Fetch More Links checks the next player only and waits for the next tap",
     "Each link loads the player configuration that matches its own source",
