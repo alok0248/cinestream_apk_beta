@@ -1,15 +1,14 @@
 {
-  "latest_version": "v3.4.8.639",
-  "latest_build": 639,
+  "latest_version": "v3.4.8.640",
+  "latest_build": 640,
   "min_supported_build": 385,
   "build_type": "BETA",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
-    "CineStream BETA release v3.4.8.639",
-    "Fixes links that fetched fine but sat on buffering forever and never started",
-    "Root cause found against the live CDN: MovieBox stream requests carried a Referer header, and the CDN rejects those with 429 Too Many Requests, so ExoPlayer retried instead of playing",
-    "Referer/Origin now stripped for MovieBox CDN links in all three places that were adding them (extractor, header resolver, streaming client), so every link still plays with the rest of its player's settings",
-    "Verified live for a movie and a series: MP4 answers 200 video/mp4, DASH manifest 200 with its signCookie",
-    "CineStream (MovieBox) player runs movies and series by default, with other players still available from Search More Players"
+    "CineStream BETA release v3.4.8.640",
+    "Trailers no longer need the local server to be running: when the server cannot bind, the same trailer page is loaded straight into the player",
+    "A dead trailer server is now rebuilt and retried once instead of leaving a black screen",
+    "Trailer / YouTube pages route to the web player instead of ExoPlayer, which retried an HTML page forever and looked like endless buffering",
+    "Trailer server keeps its listening socket alive instead of handing out a stale port nobody accepts on"
   ]
 }
