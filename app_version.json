@@ -1,21 +1,15 @@
 {
-  "latest_version": "v3.4.8.638",
-  "latest_build": 638,
+  "latest_version": "v3.4.8.639",
+  "latest_build": 639,
   "min_supported_build": 385,
   "build_type": "BETA",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
-    "CineStream BETA release v3.4.8.638",
-    "TV remote: arrow keys seek while the timeline is hidden, and navigate the player buttons once it is visible",
-    "Remote focus always stays on the screen that is showing (player, then the page it returns to)",
-    "Back now shrinks the video into a floating mini player so the rest of the app keeps browsing with it playing; mini player gains play/pause, expand and close",
-    "Smaller fonts across both players, their menus and overlays",
-    "Link list shows the player each link was extracted from on its own small line under the link",
-    "New 'Search More Players for More Links' row at the end of the link list - probes the next player and appends higher-resolution links to the ones already fetched",
-    "Each link plays with the settings of the player it came from; stale settings from another player are dropped",
-    "Visible TV focus highlight on playlists, continue watching, downloads rows and the theme picker",
-    "HQ player menu labels every link with the player it was extracted from (Player 1 (Videasy), CineStream, Player 3 (AutoEmbed) ...)",
-    "Fetch More Links checks the next player only and waits for the next tap",
-    "Provider filter applies to Movies and TV shows; Home resets to All providers"
+    "CineStream BETA release v3.4.8.639",
+    "Fixes links that fetched fine but sat on buffering forever and never started",
+    "Root cause found against the live CDN: MovieBox stream requests carried a Referer header, and the CDN rejects those with 429 Too Many Requests, so ExoPlayer retried instead of playing",
+    "Referer/Origin now stripped for MovieBox CDN links in all three places that were adding them (extractor, header resolver, streaming client), so every link still plays with the rest of its player's settings",
+    "Verified live for a movie and a series: MP4 answers 200 video/mp4, DASH manifest 200 with its signCookie",
+    "CineStream (MovieBox) player runs movies and series by default, with other players still available from Search More Players"
   ]
 }
