@@ -1,14 +1,13 @@
 {
-  "latest_version": "v3.4.8.640",
-  "latest_build": 640,
+  "latest_version": "v3.4.8.641",
+  "latest_build": 641,
   "min_supported_build": 385,
   "build_type": "BETA",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
-    "CineStream BETA release v3.4.8.640",
-    "Trailers no longer need the local server to be running: when the server cannot bind, the same trailer page is loaded straight into the player",
-    "A dead trailer server is now rebuilt and retried once instead of leaving a black screen",
-    "Trailer / YouTube pages route to the web player instead of ExoPlayer, which retried an HTML page forever and looked like endless buffering",
-    "Trailer server keeps its listening socket alive instead of handing out a stale port nobody accepts on"
+    "CineStream BETA release v3.4.8.641",
+    "History, Recently Played, Favorites and playlist items now play directly - no need to search the title again before every playback",
+    "A stale or dead MovieBox subject id stored on a history entry is re-resolved by title and retried once instead of returning no links",
+    "A metadata failure while resuming history can no longer stop playback before it starts"
   ]
 }
