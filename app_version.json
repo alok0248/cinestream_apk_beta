@@ -1,13 +1,15 @@
 {
-  "latest_version": "v3.4.8.642",
-  "latest_build": 642,
+  "latest_version": "v3.4.8.643",
+  "latest_build": 643,
   "min_supported_build": 385,
   "build_type": "BETA",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
-    "CineStream BETA release v3.4.8.642",
-    "Subtitle settings panel is compact on phone: small fonts, small buttons and more of the panel visible without scrolling",
-    "Two-line option labels like X-Large (28sp) and long subtitle language names now wrap and center properly instead of clipping",
-    "Online subtitle rows keep the VTT/SRT tag in place when the provider name is long"
+    "CineStream BETA release v3.4.8.643",
+    "Live TV sources split into GitHub, CineStream TV and CineSports",
+    "HD Streamz standalone channel list with live events and sports built into the TV tab",
+    "Channel links are scraped and probed on tap, then the first working mirror plays",
+    "Channel logos/initials on every TV list with smaller channel names",
+    "Player-side channel queue for fast switching without leaving the video"
   ]
 }
