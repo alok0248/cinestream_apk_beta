@@ -6,6 +6,7 @@
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
     "CineStream BETA release v3.4.8.658",
+    "Google sign-in and registration hidden from the app",
     "Subtitle settings panel is compact on phone: small fonts, small buttons and more of the panel visible without scrolling",
     "Two-line option labels like X-Large (28sp) and long subtitle language names now wrap and center properly instead of clipping",
     "Online subtitle rows keep the VTT/SRT tag in place when the provider name is long"
