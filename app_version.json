@@ -1,1 +1,6 @@
-{"latest_version":"3.4.8.659","latest_build":659,"apk_url":"https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk","changelog":"Added ads to home page and TV channel pages, updated target SDK to 36"}
+{
+  "latest_version": "3.4.8.660",
+  "latest_build": 660,
+  "apk_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
+  "changelog": "Provider and country selector added to the TV / tablet side navigation"
+}
