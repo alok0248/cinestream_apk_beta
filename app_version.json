@@ -1,6 +1,6 @@
 {
-  "latest_version": "v3.4.8.662",
-  "latest_build": 662,
-  "release_notes": "\u2022 Google Play compliance: the Play build no longer requests the install packages permission and no longer installs APKs itself\n\u2022 In-app updates stay available in the GitHub build\n\u2022 Franchise \u0026 collection card and cast on the TV / tablet detail page, under the poster\n\u2022 Provider and country selector in the TV / tablet side navigation",
+  "latest_version": "v3.4.8.663",
+  "latest_build": 663,
+  "release_notes": "\u2022 AdMob banners now rotate round-robin between two banner placements\n\u2022 A placement with no fill hands over to the next one before the house promo\n\u2022 Both the Google Play and GitHub builds use the same rotation",
   "apk_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk"
 }
