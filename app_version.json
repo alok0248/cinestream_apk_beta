@@ -1,14 +1,13 @@
 {
-  "latest_version": "v3.4.8.671",
-  "latest_build": 671,
+  "latest_version": "v3.4.8.672",
+  "latest_build": 672,
   "min_supported_build": 385,
   "build_type": "BETA",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
-    "Messages from the admin now open as a thread on the Notifications screen, and you can reply from there",
-    "The admin inbox on the site keeps each conversation in one place and answers it",
-    "New Users per day tab charts how many devices used each app daily, monthly and yearly"
-  ],
-  "release_notes": "• Messages from the admin now open as a thread on the Notifications screen, and you can reply from there\n• The admin inbox on the site keeps each conversation in one place and answers it\n• New Users per day tab charts how many devices used each app daily, monthly and yearly",
-  "apk_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk"
+    "CineStream BETA release v3.4.8.672",
+    "Built with consistent production signing key",
+    "R8 minification and resource shrinking enabled",
+    "Auto-generated via deploy workflow"
+  ]
 }
