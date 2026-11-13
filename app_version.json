@@ -1,6 +1,6 @@
 {
-  "latest_version": "v3.4.8.663",
-  "latest_build": 663,
-  "release_notes": "\u2022 AdMob banners now rotate round-robin between two banner placements\n\u2022 A placement with no fill hands over to the next one before the house promo\n\u2022 Both the Google Play and GitHub builds use the same rotation",
-  "apk_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk"
+    "latest_version": "v3.4.8.670",
+    "latest_build": 670,
+    "release_notes": "• Server admin messages now show on the home screen\n• New admin messages are checked in the background every half hour\n• Deleting a download now removes the downloaded file from storage",
+    "apk_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk"
 }
