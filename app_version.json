@@ -1,14 +1,13 @@
 {
-  "latest_version": "v3.4.8.678",
-  "latest_build": 678,
+  "latest_version": "v3.4.8.679",
+  "latest_build": 679,
   "min_supported_build": 385,
   "build_type": "BETA",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
-    "CineStream BETA release v3.4.8.678",
-    "Account calls now send the signed-in user's own credential, so nobody can read or write another person's messages, notifications or history",
+    "CineStream BETA release v3.4.8.679",
     "Built with consistent production signing key",
+    "R8 minification and resource shrinking enabled",
     "Auto-generated via deploy workflow"
-  ],
-  "aab_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.aab"
+  ]
 }
