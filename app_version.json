@@ -6,8 +6,10 @@
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
     "CineStream BETA release v3.4.8.682",
-    "Built with consistent production signing key",
-    "R8 minification and resource shrinking enabled",
-    "Auto-generated via deploy workflow"
-  ]
+    "Offline use now follows the subscription: an active plan keeps working for 17 days after the last successful server contact, while guests and accounts without a live plan get a blocking screen with downloads still playable",
+    "A refresh no longer clears that block: reachability is checked against our own server instead of TMDB",
+    "Sending a message and marking notifications read now carry the signed-in account's own credential",
+    "Built with consistent production signing key"
+  ],
+  "aab_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.aab"
 }
