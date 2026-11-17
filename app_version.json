@@ -1,19 +1,16 @@
 {
-  "latest_version": "v3.7.001",
-  "latest_build": 701,
-  "apk_sha256": "77a79f94596402cb1787860669fb71d187701c742aa889c5b09030949519b8d6",
+  "latest_version": "v3.7.002",
+  "latest_build": 702,
+  "apk_sha256": "d459e39cc3fc1bdd8c162987b1661dc7c84a20c8627192288dcfe242d813f2b8",
   "source_commit": "9e4d198",
   "min_supported_build": 385,
   "build_type": "BETA",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
-    "CineStream BETA release v3.7.001 (build 701)",
-    "Motion posters request the tile's exact size: one decode per card, no more tiles resizing as images load",
-    "Oversized or unbounded image requests are logged (logcat tag CoilSize) instead of decoding full-size bitmaps",
-    "Download control centre and device-local downloads survive app restarts",
-    "Playback history is kept for every provider and across database upgrades",
-    "Subtitle parsing is hardened and the player chrome scales with the window",
-    "Home labels follow the theme type scale, with the theme's missing colour roles filled in",
-    "Update APKs are verified against the published sha256 before Android installs them"
+    "CineStream BETA release v3.7.002 (build 702)",
+    "The stable (PROD) update channel is gone: the app now ships beta updates only",
+    "New BETA ONLY card in Settings: install the Play beta build, then uninstall the Play version before installing this APK (and uninstall this one again for Play updates)",
+    "Notification, Watchlist, Downloads and Settings buttons in the home header are smaller, so the CineStream title is no longer crowded out",
+    "Version numbers now come from build_number.txt, so every build gets its own increment"
   ]
 }
