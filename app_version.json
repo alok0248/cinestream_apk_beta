@@ -1,14 +1,15 @@
 {
-  "latest_version": "v3.4.8.693",
-  "latest_build": 693,
-  "apk_sha256": "c111c83802f3478f7207be7c50a7ca88b367d40fc64549ef7fc4b47586cc28d8",
-  "source_commit": "ee11f80",
+  "latest_version": "v3.4.8.694",
+  "latest_build": 694,
+  "apk_sha256": "a015d2c5d8aafb042fe147c836ee1a4117c7a37a52a61b8a18738a6d63020a1d",
+  "source_commit": "a73f9eb",
   "min_supported_build": 385,
   "build_type": "BETA",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
-    "CineStream BETA release v3.4.8.693",
-    "Poster images now decode at the card's own size, fixing posters that grew or shrank and the render-thread crash on oversized bitmaps",
+    "CineStream BETA release v3.4.8.694",
+    "Home posters request the tile's exact size: one decode per card, no more growing/shrinking tiles",
+    "CoilSizeDiagnostics logs the image, resolved size and decoded pixels for any oversized or unbounded request (logcat tag CoilSize)",
     "Built with consistent production signing key",
     "R8 minification and resource shrinking enabled"
   ]
