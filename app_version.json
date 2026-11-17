@@ -1,16 +1,16 @@
 {
-  "latest_version": "v3.7.002",
-  "latest_build": 702,
-  "apk_sha256": "d459e39cc3fc1bdd8c162987b1661dc7c84a20c8627192288dcfe242d813f2b8",
+  "latest_version": "v3.7.003",
+  "latest_build": 703,
+  "apk_sha256": "ff7b7cc6f7fa9b4452f483cc8846f0682be7aa9ef1f6666f4d040c0e622c71dc",
   "source_commit": "9e4d198",
   "min_supported_build": 385,
   "build_type": "BETA",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
-    "CineStream BETA release v3.7.002 (build 702)",
-    "The stable (PROD) update channel is gone: the app now ships beta updates only",
-    "New BETA ONLY card in Settings: install the Play beta build, then uninstall the Play version before installing this APK (and uninstall this one again for Play updates)",
-    "Notification, Watchlist, Downloads and Settings buttons in the home header are smaller, so the CineStream title is no longer crowded out",
-    "Version numbers now come from build_number.txt, so every build gets its own increment"
+    "CineStream BETA release v3.7.003 (build 703)",
+    "Header icons (notifications, watchlist, downloads, settings) are centred in their circles instead of sitting in the top-left corner",
+    "The header subtitle (HOME \u2022 NOW STREAMING and the other section labels) uses a smaller font, so the full text stays visible next to the buttons",
+    "CineStream TV grid lists each channel once: playlist mirrors such as 'ATN BANGLA [2]' are collapsed, taking the list from 586 entries to 316 unique channels",
+    "The player's channel queue follows the same de-duplicated list, so next/previous channel no longer jumps through mirror copies"
   ]
 }
