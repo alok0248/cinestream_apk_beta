@@ -1,16 +1,15 @@
 {
-  "latest_version": "v3.7.003",
-  "latest_build": 703,
-  "apk_sha256": "ff7b7cc6f7fa9b4452f483cc8846f0682be7aa9ef1f6666f4d040c0e622c71dc",
-  "source_commit": "9e4d198",
+  "latest_version": "v3.7.704",
+  "latest_build": 704,
+  "apk_sha256": "a021a3a1786134aa0e1a90c3c188720dde2cf7d8f24d46a9c2d6cbc6ec717962",
+  "source_commit": "370dce6",
   "min_supported_build": 385,
   "build_type": "BETA",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
-    "CineStream BETA release v3.7.003 (build 703)",
-    "Header icons (notifications, watchlist, downloads, settings) are centred in their circles instead of sitting in the top-left corner",
-    "The header subtitle (HOME \u2022 NOW STREAMING and the other section labels) uses a smaller font, so the full text stays visible next to the buttons",
-    "CineStream TV grid lists each channel once: playlist mirrors such as 'ATN BANGLA [2]' are collapsed, taking the list from 586 entries to 316 unique channels",
-    "The player's channel queue follows the same de-duplicated list, so next/previous channel no longer jumps through mirror copies"
+    "CineStream BETA release v3.7.704",
+    "Built with consistent production signing key",
+    "R8 minification and resource shrinking enabled",
+    "Auto-generated via deploy workflow"
   ]
 }
