@@ -1,13 +1,13 @@
 {
-  "latest_version": "v3.7.014",
-  "latest_build": 714,
-  "apk_sha256": "a904fde87f0e1c7ada4d850255702e9132624dd5509e8452b1ab8f408e510015",
-  "source_commit": "4cc60c2",
+  "latest_version": "v3.7.015",
+  "latest_build": 715,
+  "apk_sha256": "e9728ac235572ac70529780e38493fad1eedbdc05a725e74718b7161615fbb86",
+  "source_commit": "9804569",
   "min_supported_build": 385,
   "build_type": "BETA",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
-    "CineStream BETA release v3.7.014",
+    "CineStream BETA release v3.7.015",
     "Built with consistent production signing key",
     "R8 minification and resource shrinking enabled",
     "Auto-generated via deploy workflow"
