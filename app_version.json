@@ -1,15 +1,16 @@
 {
-  "latest_version": "v3.6.028",
-  "latest_build": 618,
-  "apk_sha256": "2582d7ecdc8a9e9e4dac8408cd52fe2c6b190c4fccaf206f45d555265b151a7d",
-  "source_commit": "75682c6",
+  "latest_version": "v3.4.8.667",
+  "latest_build": 667,
+  "apk_sha256": "a015d2c5d8aafb042fe147c836ee1a4117c7a37a52a61b8a18738a6d63020a1d",
+  "source_commit": "a73f9eb",
   "min_supported_build": 385,
   "build_type": "BETA",
   "download_url": "https://raw.githubusercontent.com/alok0248/cinestream_apk_beta/main/app-release.apk",
   "changelog": [
-    "CineStream BETA release v3.7.028",
+    "CineStream BETA is held at v3.4.8.667: the Google Play build is the current release",
+    "No in-app update is offered while the store build ships, so Play installs are never prompted to sideload",
+    "Self-update resumes with the next beta build after the store release lands",
     "Built with consistent production signing key",
-    "R8 minification and resource shrinking enabled",
-    "Auto-generated via deploy workflow"
+    "R8 minification and resource shrinking enabled"
   ]
 }
