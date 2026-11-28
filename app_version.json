@@ -1,6 +1,6 @@
 {
-  "latest_version": "v3.7.028",
-  "latest_build": 728,
+  "latest_version": "v3.6.028",
+  "latest_build": 618,
   "apk_sha256": "2582d7ecdc8a9e9e4dac8408cd52fe2c6b190c4fccaf206f45d555265b151a7d",
   "source_commit": "75682c6",
   "min_supported_build": 385,
